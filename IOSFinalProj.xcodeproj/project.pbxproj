@@ -17,6 +17,7 @@
 		F0DFC03D2C1C342500016F91 /* cityData.json in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC03C2C1C342400016F91 /* cityData.json */; };
 		F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03E2C1C342B00016F91 /* ModelData.swift */; };
 		F0DFC0412C1C343500016F91 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0402C1C343500016F91 /* Image.swift */; };
+		F0DFC0432C1C34F400016F91 /* CityMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */; };
 		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
 		F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */; };
 		F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -37,6 +38,7 @@
 		F0DFC03C2C1C342400016F91 /* cityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityData.json; sourceTree = "<group>"; };
 		F0DFC03E2C1C342B00016F91 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F0DFC0402C1C343500016F91 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMasterViewController.swift; sourceTree = "<group>"; };
 		F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				F0DFC03C2C1C342400016F91 /* cityData.json */,
 				F0DFC03E2C1C342B00016F91 /* ModelData.swift */,
 				F0DFC0402C1C343500016F91 /* Image.swift */,
+				F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */,
 				F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */,
 			);
 			path = IOSFinalProj;
@@ -182,6 +185,7 @@
 			files = (
 				F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */,
 				F0DFC0412C1C343500016F91 /* Image.swift in Sources */,
+				F0DFC0432C1C34F400016F91 /* CityMasterViewController.swift in Sources */,
 				F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */,
 				F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */,
 				F0DFC03B2C1C341D00016F91 /* City.swift in Sources */,
