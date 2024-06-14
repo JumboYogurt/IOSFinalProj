@@ -51,6 +51,51 @@
 			<key>uniqueIdentifier</key>
 			<string>1CF4C031-99A5-456A-9645-A442154C7EAC</string>
 		</dict>
+		<key>9D28D6DF-607E-4A7D-97E8-405629886217</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>CFE1F3DC-5AB7-4075-8F98-2956C26EA349</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-IOSFinalProj-2024.06.14_17-02-33-+0900.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOSFinalProj project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOSFinalProj</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IOSFinalProj</string>
+			<key>timeStartedRecording</key>
+			<real>740044953.26922798</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run IOSFinalProj</string>
+			<key>uniqueIdentifier</key>
+			<string>9D28D6DF-607E-4A7D-97E8-405629886217</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
