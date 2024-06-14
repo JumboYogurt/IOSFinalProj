@@ -11,6 +11,7 @@
 		F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */; };
 		F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */; };
 		F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */; };
+		F0DC13822C1C4D6100F74B60 /* BusinessCardLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */; };
 		F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC0362C1C31AA00016F91 /* Main.storyboard */; };
 		F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */; };
 		F0DFC03B2C1C341D00016F91 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03A2C1C341C00016F91 /* City.swift */; };
@@ -18,6 +19,8 @@
 		F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03E2C1C342B00016F91 /* ModelData.swift */; };
 		F0DFC0412C1C343500016F91 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0402C1C343500016F91 /* Image.swift */; };
 		F0DFC0432C1C34F400016F91 /* CityMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */; };
+		F0DFC0452C1C35B500016F91 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0442C1C35B500016F91 /* Database.swift */; };
+		F0DFC0472C1C361300016F91 /* DBFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0462C1C361200016F91 /* DBFirebase.swift */; };
 		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
 		F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */; };
 		F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -32,6 +35,7 @@
 		F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03A0F112C1AB94C00C4E900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03A0F132C1AB94C00C4E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BusinessCardLogo.jpg; sourceTree = "<group>"; };
 		F0DFC0362C1C31AA00016F91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		F0DFC03A2C1C341C00016F91 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		F0DFC03E2C1C342B00016F91 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F0DFC0402C1C343500016F91 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMasterViewController.swift; sourceTree = "<group>"; };
+		F0DFC0442C1C35B500016F91 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F0DFC0462C1C361200016F91 /* DBFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFirebase.swift; sourceTree = "<group>"; };
 		F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,11 +90,14 @@
 				F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */,
 				F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */,
 				F03A0F132C1AB94C00C4E900 /* Info.plist */,
+				F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */,
 				F0DFC03A2C1C341C00016F91 /* City.swift */,
 				F0DFC03C2C1C342400016F91 /* cityData.json */,
 				F0DFC03E2C1C342B00016F91 /* ModelData.swift */,
 				F0DFC0402C1C343500016F91 /* Image.swift */,
 				F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */,
+				F0DFC0462C1C361200016F91 /* DBFirebase.swift */,
+				F0DFC0442C1C35B500016F91 /* Database.swift */,
 				F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */,
 			);
 			path = IOSFinalProj;
@@ -172,6 +181,7 @@
 				F0DFC03D2C1C342500016F91 /* cityData.json in Resources */,
 				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
+				F0DC13822C1C4D6100F74B60 /* BusinessCardLogo.jpg in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,10 +195,12 @@
 			files = (
 				F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */,
 				F0DFC0412C1C343500016F91 /* Image.swift in Sources */,
+				F0DFC0472C1C361300016F91 /* DBFirebase.swift in Sources */,
 				F0DFC0432C1C34F400016F91 /* CityMasterViewController.swift in Sources */,
 				F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */,
 				F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */,
 				F0DFC03B2C1C341D00016F91 /* City.swift in Sources */,
+				F0DFC0452C1C35B500016F91 /* Database.swift in Sources */,
 				F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +343,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSFinalProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -358,7 +370,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSFinalProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6953C8C6-4D11-496E-B916-557B8A13E65B</key>
+		<key>24E81636-B08C-4700-AC53-AF0F3CE4261B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6953C8C6-4D11-496E-B916-557B8A13E65B.xcactivitylog</string>
+			<string>24E81636-B08C-4700-AC53-AF0F3CE4261B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,47 +32,13 @@
 			<key>signature</key>
 			<string>Build IOSFinalProj</string>
 			<key>timeStartedRecording</key>
-			<real>740041706.43076301</real>
+			<real>740054115.66132605</real>
 			<key>timeStoppedRecording</key>
-			<real>740042559.57786798</real>
+			<real>740054148.95695901</real>
 			<key>title</key>
 			<string>Build IOSFinalProj</string>
 			<key>uniqueIdentifier</key>
-			<string>6953C8C6-4D11-496E-B916-557B8A13E65B</string>
-		</dict>
-		<key>CFE1F3DC-5AB7-4075-8F98-2956C26EA349</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CFE1F3DC-5AB7-4075-8F98-2956C26EA349.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>IOSFinalProj project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>IOSFinalProj</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build IOSFinalProj</string>
-			<key>timeStartedRecording</key>
-			<real>740044953.27234995</real>
-			<key>timeStoppedRecording</key>
-			<real>740044972.73523498</real>
-			<key>title</key>
-			<string>Build IOSFinalProj</string>
-			<key>uniqueIdentifier</key>
-			<string>CFE1F3DC-5AB7-4075-8F98-2956C26EA349</string>
+			<string>24E81636-B08C-4700-AC53-AF0F3CE4261B</string>
 		</dict>
 	</dict>
 </dict>

@@ -12,7 +12,7 @@ class CityMasterViewController: UIViewController {
     @IBOutlet weak var cityTableView: UITableView!
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    var cities:[City] = MasterDetail.load("cityData.json")
+    var cities:[City] = IOSFinalProj.load("cityData.json")
     var imagePool:[String:UIImage] = [:]
     
     var dbFirebase: DbFirebase?

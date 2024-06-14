@@ -11,7 +11,7 @@
         <!--City Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CityDetailViewController" customModule="MasterDetail" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CityDetailViewController" customModule="IOSFinalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,8 +19,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qLl-0l-dtf">
                                 <rect key="frame" x="10" y="113" width="373" height="695"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBJ-4Q-ydT">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="cVd-Vf-Nyg" userLabel="imageView">
-                                        <rect key="frame" x="0.0" y="0.0" width="373" height="266.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="30.333333333333329" width="373" height="236.33333333333337"/>
                                         <color key="backgroundColor" systemColor="systemMintColor"/>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26V-bh-hXj" userLabel="textField">
@@ -85,7 +91,7 @@
         <!--City Master View Controller-->
         <scene sceneID="gmr-If-yvN">
             <objects>
-                <viewController id="WgL-L9-J6Q" customClass="CityMasterViewController" customModule="MasterDetail" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WgL-L9-J6Q" customClass="CityMasterViewController" customModule="IOSFinalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Co-c1-Mrj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
