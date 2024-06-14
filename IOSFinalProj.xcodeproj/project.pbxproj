@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */; };
 		F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */; };
-		F03A0F0A2C1AB94A00C4E900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F092C1AB94A00C4E900 /* ViewController.swift */; };
 		F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */; };
 		F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */; };
 		F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC0362C1C31AA00016F91 /* Main.storyboard */; };
+		F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */; };
 		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
 		F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */; };
 		F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -24,11 +24,11 @@
 		F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F03A0F092C1AB94A00C4E900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03A0F112C1AB94C00C4E900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03A0F132C1AB94C00C4E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0DFC0362C1C31AA00016F91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 			children = (
 				F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */,
 				F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */,
-				F03A0F092C1AB94A00C4E900 /* ViewController.swift */,
+				F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */,
 				F0DFC0362C1C31AA00016F91 /* Main.storyboard */,
 				F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */,
 				F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */,
@@ -167,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03A0F0A2C1AB94A00C4E900 /* ViewController.swift in Sources */,
+				F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */,
 				F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */,
 				F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */,
 			);
