@@ -13,6 +13,10 @@
 		F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */; };
 		F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC0362C1C31AA00016F91 /* Main.storyboard */; };
 		F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */; };
+		F0DFC03B2C1C341D00016F91 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03A2C1C341C00016F91 /* City.swift */; };
+		F0DFC03D2C1C342500016F91 /* cityData.json in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC03C2C1C342400016F91 /* cityData.json */; };
+		F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03E2C1C342B00016F91 /* ModelData.swift */; };
+		F0DFC0412C1C343500016F91 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0402C1C343500016F91 /* Image.swift */; };
 		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
 		F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */; };
 		F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -29,6 +33,10 @@
 		F03A0F132C1AB94C00C4E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0DFC0362C1C31AA00016F91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		F0DFC03A2C1C341C00016F91 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		F0DFC03C2C1C342400016F91 /* cityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityData.json; sourceTree = "<group>"; };
+		F0DFC03E2C1C342B00016F91 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F0DFC0402C1C343500016F91 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +82,10 @@
 				F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */,
 				F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */,
 				F03A0F132C1AB94C00C4E900 /* Info.plist */,
+				F0DFC03A2C1C341C00016F91 /* City.swift */,
+				F0DFC03C2C1C342400016F91 /* cityData.json */,
+				F0DFC03E2C1C342B00016F91 /* ModelData.swift */,
+				F0DFC0402C1C343500016F91 /* Image.swift */,
 				F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */,
 			);
 			path = IOSFinalProj;
@@ -154,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */,
+				F0DFC03D2C1C342500016F91 /* cityData.json in Resources */,
 				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
@@ -168,7 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */,
+				F0DFC0412C1C343500016F91 /* Image.swift in Sources */,
 				F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */,
+				F0DFC03F2C1C342B00016F91 /* ModelData.swift in Sources */,
+				F0DFC03B2C1C341D00016F91 /* City.swift in Sources */,
 				F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
