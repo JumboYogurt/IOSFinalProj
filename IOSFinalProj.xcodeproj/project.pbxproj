@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0FB0F942C2028390085C2BB /* BusinessCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */; };
+		E0FB0F982C2028520085C2BB /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F972C2028520085C2BB /* information.png */; };
+		E0FB0F9A2C20285B0085C2BB /* call-book.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F992C20285B0085C2BB /* call-book.png */; };
+		E0FB0F9C2C2029270085C2BB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */; };
+		E0FB0F9E2C20292C0085C2BB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */; };
+		E0FB0FA02C202C590085C2BB /* personalinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F9F2C202C590085C2BB /* personalinfo.png */; };
 		F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */; };
 		F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */; };
 		F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */; };
 		F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */; };
-		F0DC13822C1C4D6100F74B60 /* BusinessCardLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */; };
 		F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DFC0362C1C31AA00016F91 /* Main.storyboard */; };
 		F0DFC0392C1C331300016F91 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */; };
 		F0DFC03B2C1C341D00016F91 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC03A2C1C341C00016F91 /* City.swift */; };
@@ -22,20 +27,20 @@
 		F0DFC0452C1C35B500016F91 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0442C1C35B500016F91 /* Database.swift */; };
 		F0DFC0472C1C361300016F91 /* DBFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0462C1C361200016F91 /* DBFirebase.swift */; };
 		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
-		F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */; };
-		F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */; };
-		F0FD54E72C1C23C900E6692E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E62C1C23C900E6692E /* FirebaseFirestore */; };
-		F0FD54E92C1C23CF00E6692E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F0FD54E82C1C23CF00E6692E /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BusinessCardLogo.png; path = ../../../../Desktop/BusinessCardLogo.png; sourceTree = "<group>"; };
+		E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusinessCardLogo.png; sourceTree = "<group>"; };
+		E0FB0F972C2028520085C2BB /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information.png; path = ../../../../../Downloads/information.png; sourceTree = "<group>"; };
+		E0FB0F992C20285B0085C2BB /* call-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call-book.png"; path = "../../../../../Downloads/call-book.png"; sourceTree = "<group>"; };
+		E0FB0F9F2C202C590085C2BB /* personalinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalinfo.png; path = ../../../../../Downloads/personalinfo.png; sourceTree = "<group>"; };
 		F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03A0F112C1AB94C00C4E900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03A0F132C1AB94C00C4E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BusinessCardLogo.jpg; sourceTree = "<group>"; };
 		F0DFC0362C1C31AA00016F91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		F0DFC03A2C1C341C00016F91 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -53,16 +58,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0FD54E32C1C23B200E6692E /* FirebaseAnalytics in Frameworks */,
-				F0FD54E92C1C23CF00E6692E /* FirebaseStorage in Frameworks */,
-				F0FD54E52C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				F0FD54E72C1C23C900E6692E /* FirebaseFirestore in Frameworks */,
+				E0FB0F9C2C2029270085C2BB /* FirebaseFirestore in Frameworks */,
+				E0FB0F9E2C20292C0085C2BB /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0FB0F952C20283F0085C2BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0FB0F9F2C202C590085C2BB /* personalinfo.png */,
+				E0FB0F972C2028520085C2BB /* information.png */,
+				E0FB0F992C20285B0085C2BB /* call-book.png */,
+				E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F03A0EF92C1AB94A00C4E900 = {
 			isa = PBXGroup;
 			children = (
@@ -83,14 +97,15 @@
 		F03A0F042C1AB94A00C4E900 /* IOSFinalProj */ = {
 			isa = PBXGroup;
 			children = (
+				E0FB0F952C20283F0085C2BB /* Images */,
 				F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */,
 				F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */,
 				F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */,
 				F0DFC0362C1C31AA00016F91 /* Main.storyboard */,
 				F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */,
+				E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */,
 				F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */,
 				F03A0F132C1AB94C00C4E900 /* Info.plist */,
-				F0DC13812C1C4D6100F74B60 /* BusinessCardLogo.jpg */,
 				F0DFC03A2C1C341C00016F91 /* City.swift */,
 				F0DFC03C2C1C342400016F91 /* cityData.json */,
 				F0DFC03E2C1C342B00016F91 /* ModelData.swift */,
@@ -127,10 +142,8 @@
 			);
 			name = IOSFinalProj;
 			packageProductDependencies = (
-				F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */,
-				F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */,
-				F0FD54E62C1C23C900E6692E /* FirebaseFirestore */,
-				F0FD54E82C1C23CF00E6692E /* FirebaseStorage */,
+				E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */,
+				E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */,
 			);
 			productName = IOSFinalProj;
 			productReference = F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */;
@@ -144,7 +157,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					F03A0F012C1AB94A00C4E900 = {
 						CreatedOnToolsVersion = 14.2;
@@ -179,9 +192,12 @@
 			files = (
 				F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */,
 				F0DFC03D2C1C342500016F91 /* cityData.json in Resources */,
+				E0FB0F942C2028390085C2BB /* BusinessCardLogo.png in Resources */,
+				E0FB0F982C2028520085C2BB /* information.png in Resources */,
+				E0FB0F9A2C20285B0085C2BB /* call-book.png in Resources */,
 				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
-				F0DC13822C1C4D6100F74B60 /* BusinessCardLogo.jpg in Resources */,
+				E0FB0FA02C202C590085C2BB /* personalinfo.png in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +271,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -315,6 +332,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,28 +434,18 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F0FD54E22C1C23B200E6692E /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F0FD54E02C1C22C100E6692E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		F0FD54E42C1C23BB00E6692E /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F0FD54E02C1C22C100E6692E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		F0FD54E62C1C23C900E6692E /* FirebaseFirestore */ = {
+		E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F0FD54E02C1C22C100E6692E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		F0FD54E82C1C23CF00E6692E /* FirebaseStorage */ = {
+		E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F0FD54E02C1C22C100E6692E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
