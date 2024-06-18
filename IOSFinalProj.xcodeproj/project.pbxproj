@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0FB0F942C2028390085C2BB /* BusinessCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */; };
+		E032DF992C21346500C3AD5F /* call-book.png in Resources */ = {isa = PBXBuildFile; fileRef = E032DF982C21346500C3AD5F /* call-book.png */; };
+		E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E032DF9A2C21347000C3AD5F /* personalinfo.png */; };
 		E0FB0F982C2028520085C2BB /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F972C2028520085C2BB /* information.png */; };
-		E0FB0F9A2C20285B0085C2BB /* call-book.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F992C20285B0085C2BB /* call-book.png */; };
 		E0FB0F9C2C2029270085C2BB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */; };
 		E0FB0F9E2C20292C0085C2BB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */; };
-		E0FB0FA02C202C590085C2BB /* personalinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F9F2C202C590085C2BB /* personalinfo.png */; };
 		F03A0F062C1AB94A00C4E900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */; };
 		F03A0F082C1AB94A00C4E900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */; };
 		F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */; };
@@ -30,11 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BusinessCardLogo.png; path = ../../../../Desktop/BusinessCardLogo.png; sourceTree = "<group>"; };
+		E032DF982C21346500C3AD5F /* call-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call-book.png"; path = "../../../../../Desktop/IOS FinalProj 데이터/call-book.png"; sourceTree = "<group>"; };
+		E032DF9A2C21347000C3AD5F /* personalinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalinfo.png; path = "../../../../../Desktop/IOS FinalProj 데이터/personalinfo.png"; sourceTree = "<group>"; };
 		E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusinessCardLogo.png; sourceTree = "<group>"; };
 		E0FB0F972C2028520085C2BB /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information.png; path = ../../../../../Downloads/information.png; sourceTree = "<group>"; };
-		E0FB0F992C20285B0085C2BB /* call-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call-book.png"; path = "../../../../../Downloads/call-book.png"; sourceTree = "<group>"; };
-		E0FB0F9F2C202C590085C2BB /* personalinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalinfo.png; path = ../../../../../Downloads/personalinfo.png; sourceTree = "<group>"; };
 		F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03A0F072C1AB94A00C4E900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,9 +67,9 @@
 		E0FB0F952C20283F0085C2BB /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E0FB0F9F2C202C590085C2BB /* personalinfo.png */,
 				E0FB0F972C2028520085C2BB /* information.png */,
-				E0FB0F992C20285B0085C2BB /* call-book.png */,
+				E032DF9A2C21347000C3AD5F /* personalinfo.png */,
+				E032DF982C21346500C3AD5F /* call-book.png */,
 				E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */,
 			);
 			path = Images;
@@ -103,7 +101,6 @@
 				F0DFC0382C1C331300016F91 /* CityDetailViewController.swift */,
 				F0DFC0362C1C31AA00016F91 /* Main.storyboard */,
 				F03A0F0E2C1AB94C00C4E900 /* Assets.xcassets */,
-				E0FB0F932C2028390085C2BB /* BusinessCardLogo.png */,
 				F03A0F102C1AB94C00C4E900 /* LaunchScreen.storyboard */,
 				F03A0F132C1AB94C00C4E900 /* Info.plist */,
 				F0DFC03A2C1C341C00016F91 /* City.swift */,
@@ -192,12 +189,11 @@
 			files = (
 				F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */,
 				F0DFC03D2C1C342500016F91 /* cityData.json in Resources */,
-				E0FB0F942C2028390085C2BB /* BusinessCardLogo.png in Resources */,
 				E0FB0F982C2028520085C2BB /* information.png in Resources */,
-				E0FB0F9A2C20285B0085C2BB /* call-book.png in Resources */,
+				E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */,
 				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
+				E032DF992C21346500C3AD5F /* call-book.png in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
-				E0FB0FA02C202C590085C2BB /* personalinfo.png in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
