@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E032DF992C21346500C3AD5F /* call-book.png in Resources */ = {isa = PBXBuildFile; fileRef = E032DF982C21346500C3AD5F /* call-book.png */; };
 		E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E032DF9A2C21347000C3AD5F /* personalinfo.png */; };
+		E06499C02C213F50008DEE3A /* profile-user.png in Resources */ = {isa = PBXBuildFile; fileRef = E06499BF2C213F50008DEE3A /* profile-user.png */; };
+		E06499C22C2148F7008DEE3A /* BusinessCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E06499C12C2148F7008DEE3A /* BusinessCardLogo.png */; };
 		E0FB0F982C2028520085C2BB /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F972C2028520085C2BB /* information.png */; };
 		E0FB0F9C2C2029270085C2BB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */; };
 		E0FB0F9E2C20292C0085C2BB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */; };
@@ -31,7 +33,8 @@
 /* Begin PBXFileReference section */
 		E032DF982C21346500C3AD5F /* call-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call-book.png"; path = "../../../../../Desktop/IOS FinalProj 데이터/call-book.png"; sourceTree = "<group>"; };
 		E032DF9A2C21347000C3AD5F /* personalinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalinfo.png; path = "../../../../../Desktop/IOS FinalProj 데이터/personalinfo.png"; sourceTree = "<group>"; };
-		E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusinessCardLogo.png; sourceTree = "<group>"; };
+		E06499BF2C213F50008DEE3A /* profile-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-user.png"; path = "../../../../../Downloads/profile-user.png"; sourceTree = "<group>"; };
+		E06499C12C2148F7008DEE3A /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusinessCardLogo.png; sourceTree = "<group>"; };
 		E0FB0F972C2028520085C2BB /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information.png; path = ../../../../../Downloads/information.png; sourceTree = "<group>"; };
 		F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,9 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				E0FB0F972C2028520085C2BB /* information.png */,
+				E06499C12C2148F7008DEE3A /* BusinessCardLogo.png */,
+				E06499BF2C213F50008DEE3A /* profile-user.png */,
 				E032DF9A2C21347000C3AD5F /* personalinfo.png */,
 				E032DF982C21346500C3AD5F /* call-book.png */,
-				E0FB0F962C2028480085C2BB /* BusinessCardLogo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -190,10 +194,12 @@
 				F03A0F122C1AB94C00C4E900 /* LaunchScreen.storyboard in Resources */,
 				F0DFC03D2C1C342500016F91 /* cityData.json in Resources */,
 				E0FB0F982C2028520085C2BB /* information.png in Resources */,
+				E06499C02C213F50008DEE3A /* profile-user.png in Resources */,
 				E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */,
 				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
 				E032DF992C21346500C3AD5F /* call-book.png in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
+				E06499C22C2148F7008DEE3A /* BusinessCardLogo.png in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

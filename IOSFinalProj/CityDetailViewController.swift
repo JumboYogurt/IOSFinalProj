@@ -11,12 +11,18 @@ class CityDetailViewController: UIViewController {
     @IBOutlet weak var cityImageView: UIImageView! //이미지뷰
     @IBOutlet weak var cityNameTextField: UITextField! //텍스트필드
     
+    @IBOutlet weak var department: UILabel! //부서text
+    @IBOutlet weak var stackView: UIStackView!
+    
     @IBOutlet weak var countryPickerView: UIPickerView! //피커뷰
     @IBOutlet weak var descriptionTextView: UITextView! //텍스트뷰
     
     @IBOutlet weak var stackViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var stackViewBottomConstraint: NSLayoutConstraint!
     
+    func setupView() {
+        stackView.setCustomSpacing(0, after: department)
+    }
     
     @objc func startEditing(sender: UITextField){
         stackViewTopConstraint.constant -= 250
@@ -28,7 +34,8 @@ class CityDetailViewController: UIViewController {
         stackViewBottomConstraint.constant += 250
     }
     
-    var countries = ["Korea", "Greece", "Thailand", "Germany", "Israel", "Portugal", "England", "United State", "France", "Australia"]
+    var countries = ["행정사무실", "컴퓨터공학부실습실", "상상력인재학부", "컴퓨터공학사무실", "웹공학트랙행정사무실", "디지털컨텐츠트랙 행정사무실", "모바일트랙행정사무실", "모바일트랙행정사무실", "창의융합지원센터", "IPP사업단"]
+    
     var cityMasterViewController: CityMasterViewController!
     //var cities:[City]!
     var selectedCity:Int?
