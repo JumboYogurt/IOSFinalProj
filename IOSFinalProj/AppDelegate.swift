@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Thread.sleep(forTimeInterval: 2.0)
         FirebaseApp.configure()
         Firestore.firestore().collection("test").document("name").setData(["name":"YeEun Lee"])
+        Firestore.firestore().collection("test").document("tel").setData(["tel":"02-0000-0000"])
+        Firestore.firestore().collection("test").document("fax").setData(["fax":"02-0000-0000"])
+        Firestore.firestore().collection("test").document("email").setData(["email":"hansung@hansung.com"])
         
         let image = UIImage(named: "Seoul")
         let imageData = image?.jpegData(compressionQuality: 1.0)

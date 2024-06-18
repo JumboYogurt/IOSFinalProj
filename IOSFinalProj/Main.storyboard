@@ -24,13 +24,25 @@
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="134.66666666666666"/>
                                         <color key="backgroundColor" red="0.89019608500000003" green="0.97254902119999997" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="이름" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26V-bh-hXj" userLabel="textField">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zBH-jZ-eOe">
                                         <rect key="frame" x="0.0" y="144.66666666666669" width="373" height="34"/>
-                                        <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="textColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" name " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGH-xg-q1k">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="34"/>
+                                                <color key="backgroundColor" white="0.089999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26V-bh-hXj" userLabel="textField">
+                                                <rect key="frame" x="56" y="0.0" width="317" height="34"/>
+                                                <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81V-Rg-se2" userLabel="picker View">
                                         <rect key="frame" x="0.0" y="188.66666666666669" width="373" height="120"/>
                                         <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -38,25 +50,64 @@
                                             <constraint firstAttribute="height" constant="120" id="Kot-zK-GPJ"/>
                                         </constraints>
                                     </pickerView>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="tel" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Whx-nA-rM5">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LI5-67-L2n">
                                         <rect key="frame" x="0.0" y="318.66666666666669" width="373" height="34"/>
-                                        <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fax" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pua-23-Izn">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    tel    " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndc-9F-xLh">
+                                                <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="34"/>
+                                                <color key="backgroundColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Whx-nA-rM5" userLabel="textField">
+                                                <rect key="frame" x="58.666666666666657" y="0.0" width="314.33333333333337" height="34"/>
+                                                <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" white="0.089999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="no3-yM-2ea">
                                         <rect key="frame" x="0.0" y="362.66666666666669" width="373" height="34"/>
-                                        <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="e-mail" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsm-6U-kVX">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   fax    " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUC-R8-9h6">
+                                                <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="34"/>
+                                                <color key="backgroundColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pua-23-Izn" userLabel="textField">
+                                                <rect key="frame" x="58.666666666666657" y="0.0" width="314.33333333333337" height="34"/>
+                                                <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" white="0.089999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="PHh-TP-G8F">
                                         <rect key="frame" x="0.0" y="406.66666666666663" width="373" height="34"/>
-                                        <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="메모" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r0a-vV-bn5" userLabel="textView">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" e-mail " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpx-dt-y2n">
+                                                <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="34"/>
+                                                <color key="backgroundColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsm-6U-kVX" userLabel="textField">
+                                                <rect key="frame" x="61.666666666666657" y="0.0" width="311.33333333333337" height="34"/>
+                                                <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" white="0.089999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="메모 : " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r0a-vV-bn5" userLabel="textView">
                                         <rect key="frame" x="0.0" y="450.66666666666663" width="373" height="200"/>
                                         <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -69,7 +120,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxZ-se-U4a" userLabel="button">
                                         <rect key="frame" x="0.0" y="660.66666666666663" width="373" height="34.333333333333371"/>
                                         <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" red="0.39607840779999998" green="0.55294120309999995" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Save"/>
                                         <connections>
@@ -95,6 +146,9 @@
                         <outlet property="cityNameTextField" destination="26V-bh-hXj" id="M53-RK-tda"/>
                         <outlet property="countryPickerView" destination="81V-Rg-se2" id="EtT-8R-hDa"/>
                         <outlet property="descriptionTextView" destination="r0a-vV-bn5" id="gve-ld-Mgi"/>
+                        <outlet property="personEmail" destination="gsm-6U-kVX" id="OV6-9k-XCZ"/>
+                        <outlet property="personFax" destination="Pua-23-Izn" id="w7i-Zp-o8x"/>
+                        <outlet property="personTel" destination="Whx-nA-rM5" id="aJz-AW-evz"/>
                         <outlet property="stackView" destination="qLl-0l-dtf" id="kgc-L2-dlh"/>
                         <outlet property="stackViewBottomConstraint" destination="L8D-zP-UMl" id="hqi-Rz-bdx"/>
                         <outlet property="stackViewTopConstraint" destination="fNz-up-w6Q" id="8XX-eS-FXI"/>
@@ -175,6 +229,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGr-ar-Zqh">
                                         <rect key="frame" x="0.0" y="387.66666666666663" width="373" height="194"/>
+                                        <color key="backgroundColor" red="0.76862752440000004" green="0.87450981139999995" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" red="0.039215687659999998" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

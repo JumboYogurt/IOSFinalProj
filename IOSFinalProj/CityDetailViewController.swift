@@ -10,19 +10,17 @@ import UIKit
 class CityDetailViewController: UIViewController {
     @IBOutlet weak var cityImageView: UIImageView! //이미지뷰
     @IBOutlet weak var cityNameTextField: UITextField! //텍스트필드
-    
-    @IBOutlet weak var department: UILabel! //부서text
+
     @IBOutlet weak var stackView: UIStackView!
     
     @IBOutlet weak var countryPickerView: UIPickerView! //피커뷰
     @IBOutlet weak var descriptionTextView: UITextView! //텍스트뷰
     
+    @IBOutlet weak var personTel: UITextField! //전화번호
+    @IBOutlet weak var personFax: UITextField! //팩스번호
+    @IBOutlet weak var personEmail: UITextField! //이메일번호
     @IBOutlet weak var stackViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var stackViewBottomConstraint: NSLayoutConstraint!
-    
-    func setupView() {
-        stackView.setCustomSpacing(0, after: department)
-    }
     
     @objc func startEditing(sender: UITextField){
         stackViewTopConstraint.constant -= 250
@@ -56,6 +54,9 @@ class CityDetailViewController: UIViewController {
             }
         }
         cityNameTextField.text = city.name
+        personTel.text = city.tel
+        personFax.text = city.fax
+        personEmail.text = city.email
         descriptionTextView.text = city.description
     }
     
@@ -63,6 +64,9 @@ class CityDetailViewController: UIViewController {
         guard let name = cityNameTextField.text,name.isEmpty == false else{return}
             let image = cityImageView.image
             let country = countries[countryPickerView.selectedRow(inComponent: 0)]
+            guard let tel = personTel.text,tel.isEmpty == false else{return}
+            guard let fax = personFax.text,fax.isEmpty == false else{return}
+            guard let email = personEmail.text,email.isEmpty == false else{return}
             let description = descriptionTextView.text
             
         var id = cityMasterViewController.cities.count+1000
@@ -72,7 +76,7 @@ class CityDetailViewController: UIViewController {
                 imageName = cityMasterViewController.cities[selectedCity].imageName
             }
         
-        let city = City(id:id, name: name, country: country, description: description!, imageName: imageName)
+        let city = City(id:id, name: name, country: country,tel: tel, fax: fax,email: email, description: description!, imageName: imageName)
         
         /*if let selectedCity = selectedCity{
             cityMasterViewController.cities[selectedCity]=city
@@ -96,7 +100,8 @@ class CityDetailViewController: UIViewController {
         
         //cityMasterViewController.imagePool[imageName] = image
         
-        cityImageView.image = nil; cityNameTextField.text=""; selectedCity=nil
+        cityImageView.image = nil; cityNameTextField.text=""; personTel.text=""; personFax.text="";
+        personEmail.text=""; selectedCity=nil
     }
     
     override func viewDidLoad() {
@@ -111,8 +116,15 @@ class CityDetailViewController: UIViewController {
         let viewTapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(viewTapGesture)
         
+        
         cityNameTextField.addTarget(self, action: #selector(startEditing),for:.editingDidBegin)
         cityNameTextField.addTarget(self, action: #selector(endEditing), for:.editingDidEnd)
+        personTel.addTarget(self, action: #selector(startEditing),for:.editingDidBegin)
+        personTel.addTarget(self, action: #selector(endEditing), for:.editingDidEnd)
+        personFax.addTarget(self, action: #selector(startEditing),for:.editingDidBegin)
+        personFax.addTarget(self, action: #selector(endEditing), for:.editingDidEnd)
+        personEmail.addTarget(self, action: #selector(startEditing),for:.editingDidBegin)
+        personEmail.addTarget(self, action: #selector(endEditing), for:.editingDidEnd)
         }
     
     @objc func capturePicture(sender: UITapGestureRecognizer){

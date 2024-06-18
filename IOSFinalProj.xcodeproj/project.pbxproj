@@ -11,6 +11,7 @@
 		E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E032DF9A2C21347000C3AD5F /* personalinfo.png */; };
 		E06499C02C213F50008DEE3A /* profile-user.png in Resources */ = {isa = PBXBuildFile; fileRef = E06499BF2C213F50008DEE3A /* profile-user.png */; };
 		E06499C22C2148F7008DEE3A /* BusinessCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E06499C12C2148F7008DEE3A /* BusinessCardLogo.png */; };
+		E06499C42C216B52008DEE3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E06499C32C216B52008DEE3A /* GoogleService-Info.plist */; };
 		E0FB0F982C2028520085C2BB /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FB0F972C2028520085C2BB /* information.png */; };
 		E0FB0F9C2C2029270085C2BB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9B2C2029270085C2BB /* FirebaseFirestore */; };
 		E0FB0F9E2C20292C0085C2BB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0FB0F9D2C20292C0085C2BB /* FirebaseStorage */; };
@@ -27,7 +28,6 @@
 		F0DFC0432C1C34F400016F91 /* CityMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */; };
 		F0DFC0452C1C35B500016F91 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0442C1C35B500016F91 /* Database.swift */; };
 		F0DFC0472C1C361300016F91 /* DBFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFC0462C1C361200016F91 /* DBFirebase.swift */; };
-		F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +35,7 @@
 		E032DF9A2C21347000C3AD5F /* personalinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalinfo.png; path = "../../../../../Desktop/IOS FinalProj 데이터/personalinfo.png"; sourceTree = "<group>"; };
 		E06499BF2C213F50008DEE3A /* profile-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-user.png"; path = "../../../../../Downloads/profile-user.png"; sourceTree = "<group>"; };
 		E06499C12C2148F7008DEE3A /* BusinessCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusinessCardLogo.png; sourceTree = "<group>"; };
+		E06499C32C216B52008DEE3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0FB0F972C2028520085C2BB /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information.png; path = ../../../../../Downloads/information.png; sourceTree = "<group>"; };
 		F03A0F022C1AB94A00C4E900 /* IOSFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A0F052C1AB94A00C4E900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMasterViewController.swift; sourceTree = "<group>"; };
 		F0DFC0442C1C35B500016F91 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		F0DFC0462C1C361200016F91 /* DBFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFirebase.swift; sourceTree = "<group>"; };
-		F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				F0DFC0422C1C34F400016F91 /* CityMasterViewController.swift */,
 				F0DFC0462C1C361200016F91 /* DBFirebase.swift */,
 				F0DFC0442C1C35B500016F91 /* Database.swift */,
-				F0FD54DE2C1C21F200E6692E /* GoogleService-Info.plist */,
+				E06499C32C216B52008DEE3A /* GoogleService-Info.plist */,
 			);
 			path = IOSFinalProj;
 			sourceTree = "<group>";
@@ -196,9 +196,9 @@
 				E0FB0F982C2028520085C2BB /* information.png in Resources */,
 				E06499C02C213F50008DEE3A /* profile-user.png in Resources */,
 				E032DF9B2C21347000C3AD5F /* personalinfo.png in Resources */,
-				F0FD54DF2C1C21F200E6692E /* GoogleService-Info.plist in Resources */,
 				E032DF992C21346500C3AD5F /* call-book.png in Resources */,
 				F03A0F0F2C1AB94C00C4E900 /* Assets.xcassets in Resources */,
+				E06499C42C216B52008DEE3A /* GoogleService-Info.plist in Resources */,
 				E06499C22C2148F7008DEE3A /* BusinessCardLogo.png in Resources */,
 				F0DFC0372C1C31AB00016F91 /* Main.storyboard in Resources */,
 			);

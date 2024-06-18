@@ -92,7 +92,7 @@ extension CityMasterViewController:UITableViewDataSource   {
             // 스레드에 의하여 나중에 호출된다.
             // 주의할 점은 스레드에 의하여 completion이 호출되는 시점에서 cell은 이미 화면에 나타나고
             // 그래서 cell의 layout이 이미 끝난 상태이다.
-            // 따라서 이미지를 적용하기 위해서는 레이우웃이 필요,
+            // 따라서 이미지를 적용하기 위해서는 레이아웃이 필요,
             cell.setNeedsLayout()
             dbFirebase?.downloadImage(imageName: city.imageName, completion: {
                 image in
@@ -100,7 +100,7 @@ extension CityMasterViewController:UITableViewDataSource   {
                 cell.setNeedsLayout() // 이미 layout이 설정되었으므로 재설정이 필요
             })
         }
-                                      
+                                        
         cell.textLabel?.text = city.name
         cell.detailTextLabel?.text = "in \(city.country)"
         cell.textLabel?.textAlignment = .right
