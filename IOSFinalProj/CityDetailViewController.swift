@@ -102,6 +102,10 @@ class CityDetailViewController: UIViewController {
         
         cityImageView.image = nil; cityNameTextField.text=""; personTel.text=""; personFax.text="";
         personEmail.text=""; selectedCity=nil
+        let alert = UIAlertController(title: "Saving Success", message: "저장되었습니다", preferredStyle: .alert)
+        //alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: {_ in}))
+        alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: {_ in}))
+        present(alert, animated: true)
     }
     
     override func viewDidLoad() {

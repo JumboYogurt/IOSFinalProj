@@ -64,7 +64,7 @@ class DbFirebase: Database{
     }
     func downloadImage(imageName: String, completion: @escaping (UIImage?) -> Void) { // completion 함수는 이미지 로딩이 다 이루어지면 알려 달라는 함수
         let reference = Storage.storage().reference().child("cities").child(imageName)
-        let megaByte = Int64(10 * 1024 * 1024) // 충분히 크야한다.
+        let megaByte = Int64(10 * 1024 * 1024) // 충분히 커야한다.
         reference.getData(maxSize: megaByte) { data, error in
             // 스레드에 의하여 실행된다.
             completion( data != nil ? UIImage(data: data!): nil)
